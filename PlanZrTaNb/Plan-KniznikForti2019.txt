@@ -1,0 +1,186 @@
+﻿Maestría en Ciencia y Tecnología de Materiales UNSAM / CNEA
+Plan de Maestría 2019
+
+1. Título de la Tesis 
+Descripción termodinámica del sistema ternario ZrNbTa 
+
+2. Lugar en donde se realizará 
+División Aleaciones Especiales, Gerencia Materiales, Gerencia de Área Energía Nuclear
+
+3. Directores
+    • Laura Kniznik
+Doctora UBA, área Ciencias Físicas 
+kniznik@cnea.gov.ar
+Interno CAC 7832
+Investigadora CNEA / Docente UNSAM  y UBA
+    • Mariano Daniel Forti
+Doctor en Ciencia y Tecnología, Mención Materiales, Instituto Sabato, UNSAM
+mforti@cnea.gov.ar
+Interno CAC 7832
+Investigador CNEA / Docente UNSAM
+
+4. Confidencialidad:
+No.
+
+5. Introducción 
+El plan estratégico de CNEA [1], en su capítulo referido al futuro, explicita: “Dentro del área de los combustibles nucleares, se continuará con el desarrollo de los elementos combustibles para CNA-II. Además, se están desarrollando nuevos materiales y procesos para la elaboración de elementos combustibles de mayor grado de quemado para Reactores de Generación III y IV.” En este marco, CNEA ha llevado a cabo el proyecto ULE [2] por el cual el diseño original del combustible de la central CNA-I, uranio natural, fue reemplazado por uranio levemente enriquecido (0.85 % del isótopo U-235).  El quemado se incrementó de 6500 a 11500 MWd/ton U produciendo un 40% de aumento en el consumo de combustible y una reducción de alrededor de 30% en costos. El material de las vainas que contienen el combustible fue Zircaloy-4 (Zry-4).
+Si CNEA aspira a dominar la tecnología de elementos combustible para reactores de generación III (alto quemado y agua de enfriamiento de mayor temperatura y pH), debe entonces acceder a la tecnología de las aleaciones de circonio con bajo contenido de Nb y libres de Sn. Algunos ejemplos de estas aleaciones son la aleación francesa M5 (Zr - Nb-1wt% - 0.135wt% O) o la aleación rusa E110 (Zr - 1wt% Nb - 0. 04 a 0.06 wt% O). Estas aleaciones son actualmente usadas en reactores PWR de EEUU, Europa y Rusia, y han mostrado una disminución significativa en el espesor de la capa de óxido y en la absorción de hidrógeno comparadas con Zry-4 para quemados mayores a 20000 MWd/ton U manteniendo una resistencia al creep similar a la del Zry-4 [3]. La estructura estable en estas aleaciones resulta de un proceso a baja temperatura y muestra la coexistencia de partículasβNb como segunda fase con tamaño y distribución óptimos en la matriz circonio.  La ausencia de Sn como elemento aleante resulta en bajas tasas de corrosión y toma de hidrógeno a altos quemado y condiciones de operación del reactor [4]. La concentración de oxígeno está en el rango de 0.02-0.05 %at. Sin embargo, concentraciones de oxígeno de hasta 0.1 %at son permitidas, ya que coadyuvan al endurecimiento de la aleación. 
+Las aleaciones base Zr son los materiales estructurales más importantes de la industria nuclear. En los reactores de potencia, Argentina utiliza aleaciones del tipo Zircaloy, aunque en la actualidad ya se fabrican aleaciones de características superiores. Dentro de estas últimas se destacan las aleaciones de Zr-1%Nb capaces de ser utilizadas en reactores de alto quemado por su excelente resistencia a la corrosión. La División Aleaciones Especiales (CNEA-CAC) desarrolló una patente nacional donde se modifica la aleación Zr-1%Nb con Ta como tercer aleante [5]. El beneficio de esta modificación es la elevación de la temperatura monotectoide, es decir que se eleva la estabilidad microestructural (αZr+βNb) de la aleación. Algunas de las mejoras que se podrían adoptar en los reactores nucleares podrían ser: incrementar el nivel de seguridad de la instalación, elevar la temperatura de operación, aumentar el quemado del combustible, extender la vida de las aleaciones.
+Hasta el momento existen muy escasas investigaciones del diagrama de fases ternario ZrNbTa. Por un lado, se muestran resultados experimentales, como exámenes cristalográficos, análisis térmicos y mediciones de resistencia eléctrica en porciones del diagrama ternario, en [6]. Por el otro, en [7] se informan cálculos realizados con modelado CALPHAD. En la división se ha iniciado la exploración experimental de este sistema [8].
+Con estos antecedentes, se plantea en forma complementaria en este Plan de Tesis de Maestría el estudio del sistema ZrNbTa mediante el modelado termodinámico. Los métodos de cálculo sugeridos para abordar la Tesis son: modelado semi-empírico CALPHAD [9]; cálculos de primeros principios mediante DFT [10] y método de expansión en cúmulos [11].
+
+6. Objetivos del Trabajo
+Estudiar la termodinámica del sistema ZrNbTa. Para ello:
+    • Investigar en la bibliografía la descripción tanto experimental como de cálculo de los sistemas binarios ZrNb, ZrTa y NbTa.
+    • Determinar el diagrama de equilibrio ternario del sistema a partir de las descripciones de los 3 diagramas binarios mediante el modelado termodinámico a través del método CALPHAD.
+    • Analizada la bibliografía, evaluar la posibilidad de introducir datos propios de cálculo por primeros principios para generar mediante el método de expansión en cúmulos   las soluciones sólidas binarias bcc.
+ 
+7. Descripción sucinta de los conocimientos y habilidades que el/la maestrando/a adquirirá durante este trabajo
+    • La revisión bibliográfica será un trabajo constante a lo largo de los 13 meses, a través de la cual se entrenará en métodos de análisis y búsqueda de información.
+    • Adquirirá experiencia en la aplicación de técnicas de cálculo termodinámico CALPHAD y eventualmente también en el cálculo por primeros principios y en el método de expansión en cúmulos.
+    • Esta experiencia implica el diseño de la estrategia de cálculo, la determinación de los parámetros específicos de acuerdo a su significado teórico y el análisis constante de los resultados. La toma de decisiones durante el desarrollo de la tesis surgirá tanto del análisis de los resultados como de la comparación crítica de los valores propios con los de la literatura.
+    • Habrá ganado conocimiento específico sobre los temas del proyecto, diagramas de fases, sistemas ternarios, estudios termodinámicos.
+    • Se habrá desempeñado profesionalmente en un grupo de trabajo, con la oportunidad de participar de discusiones y de fortalecer su sentido crítico y su capacidad colaborativa.
+    • Finalmente, se pondrá énfasis en la habilidad de comunicación de los resultados, tanto en la identificación de los datos relevantes como en la redacción de los informes.  
+
+8. Trabajos a realizar 
+    • Revisión bibliográfica.
+    • Evaluación de los datos experimentales y de cálculo sobre los diagramas binarios del sistema ZrNbTa.
+    • Una vez analizada la información existente, se procederá a generar una base de datos del sistema ternario con el objetivo de obtener el diagrama de equilibrio mediante un modelado termodinámico CALPHAD. 
+    • A partir de la información relevada, se analizará la posibilidad de introducir datos propios obtenidos mediante cálculo de primeros principios, a través del método de expansión en cúmulos.
+    • Escritura de la Tesis, de una publicación en un congreso nacional y de una publicación en una revista internacional.
+
+9. Técnicas experimentales o de cálculo que se usarán 
+Los cálculos termodinámicos serán hechos dentro del marco del método CALPHAD usando el paquete de cálculo ThermoCalc [12], los cálculos de primeros principios mediante DFT con el código VASP [13] y la expansión en cúmulos utilizando el programa ATAT [14], en particular el código para el cálculo de equilibrio de fases a temperaturas finitas [15].
+
+10. Cronograma estimado de cada una de las actividades 
+Actividad
+Meses
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+Revisión y análisis bibliográfico
+X
+X
+X
+
+
+X
+X
+X
+X
+
+X
+
+
+Entrenamiento en el uso de ThermoCalc
+X
+X
+X
+
+
+
+
+
+
+
+
+
+
+Base de datos y generación de diagrama de equilibrio mediante el modelado CALPHAD
+
+
+X
+X
+X
+X
+X
+
+
+
+
+
+
+Cálculo de energías totales por DFT y expansión en cúmulos
+
+
+
+
+X
+X
+X
+X
+X
+X
+
+
+
+Análisis de resultados y escritura de la Tesis
+
+
+
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+
+11- Materiales e Infraestructura con que se cuenta 
+El grupo cuenta con licencia para el uso de los códigos de cálculo ThermoCalc, VASP y ATAT, y con 2 conjuntos de computadoras (clusters), de 32 procesadores cada uno, para cálculo de alto rendimiento utilizados en exclusividad por el grupo. Además, se cuenta con acceso a las facilidades de cálculo de alta performance de la CNEA, que actualmente cuenta con un cluster de computadoras de 750 procesadores.
+12. Experiencia previa del grupo de trabajo en el tema propuesto 
+Tesis de Doctorado UBA, área Ciencias Físicas: “Defectos constitucionales y energía de migración de aluminio en UAl4”. Laura Kniznik.
+Tesis de Doctorado en Ciencia y Tecnología, Mención Materiales, Instituto Sabato, UNSAM: “Modelo atomístico/continuo aplicado a la fractura de la capa de óxido en tuberías de reactores nucleares de potencia”. Mariano Forti.
+
+Publicaciones relacionadas
+
+    1.  G.E. Ramírez-Caballero, P.B. Balbuena, P. R. Alonso, P.H. Gargano, G. H. Rubiolo, Carbon Adsorption and Absorption in the (111) L12 Fe3Al Surface, J. Phys. Chem. C 113 (2009) 18321–18330.
+    2.  P.R. Alonso, J.R. Fernández, P.H. Gargano, G.H. Rubiolo, U-Al system. Ab-initio and many body potential approaches, Physica B: Condensed Matter 404 Issue 18 (2009) 2851-2853.
+    3.  P.R. Alonso, P.H. Gargano, G.E. Ramírez-Caballero, P.B. Balbuena, G.H. Rubiolo, First principles calculation of L21 + A2 coherent equilibria in the Fe-Al-Ti system, Physica B: Condensed Matter 404 Issue 18 (2009) 2845-2847. 
+    4.  F. Lanzini, P.H. Gargano, P.R. Alonso, G.H. Rubiolo, First principles study of phase stabilities in bcc Cu-Al alloy, Modelling Simul. Mater. Sci. Eng. 19 (2011) 015008 (15pp).
+    5.  P.R. Alonso, P.H. Gargano, P.B. Bozzano, G.E. Ramírez-Caballero, P.B. Balbuena, G.H. Rubiolo, Combined ab initio and experimental study of A2 + L21 coherent equilibria in the Fe-Al-X (X=Ti, Nb, V) systems, Intermetallics 19 Issue 8 (2011) 1157-1167. 
+    6.  L. Kniznik, P.R. Alonso, P.H. Gargano, G.H. Rubiolo, Simulation of UAl4 growth in an UAl3/Al diffusion couple, Journal of Nuclear Materials 414 (2011) 309-315. 
+    7.  P.R. Alonso, P.H. Gargano, G.H. Rubiolo, Stability of the C14-laves phase (Fe,Si)2Mo from ab initio calculations, Computer Coupling of Phase Diagrams and Thermochemistry (Calphad), 35 (2011) 492–498. 
+    8.  	"Experimental studies and first principles calculations in nuclear fuel alloys for research reactors", P.R. Alonso, P.H. Gargano, L. Kniznik, L.M. Pizarro, G.H. Rubiolo; in Nuclear Materials; Editor: Michael P. Hemsworth. Series: Physics Research and Technology, Materials Science and Technologies. Nova Science Publishers, Inc; 400 Oser Avenue, Suite 1600, Hauppauge, NY 11788, EEUU. ISBN: 978-1-61324-010-6. (Nova Science Publishers, Inc , New York, 2011).
+    9.  P.R. Alonso, P.H. Gargano, G.H. Rubiolo, First principles calculation of the Al3U-Si3U pseudo binary fcc phase equilibrium diagram, CALPHAD: Computer Coupling of Phase Diagrams and Thermochemistry 38 (2012) 117–121.
+    10.  M.D. Forti, P.R. Alonso, P.H. Gargano, G.H. Rubiolo, Transition metals monoxides. An LDA+U study, Procedia Materials Science 1 (2012) 230 – 234.
+    11.  L. Kniznik, P.R. Alonso, P.H. Gargano, M.D. Forti, G.H. Rubiolo, First principles study of U-Al system ground state, Procedia Materials Science 1 (2012) 514 – 519.
+    12.  M.D. Forti, P. Balbuena, P.R. Alonso, Ab-initio studies on carburization of Fe3Al based alloys, Procedia Materials Science 1 (2012) 191 – 198.
+    13.  M.D. Forti, P.R. Alonso, P.H. Gargano, G.H. Rubiolo, Adhesion Energy of the Fe(BCC)/Magnetite Interface within the DFT approach, Procedia Materials Science 8 (2015) 1066 – 1072.
+    14.  P.R. Alonso,  “Aplicaciones de técnicas de primeros principios al cálculo de diagramas de fases de equilibrio. Diagramas de fases de equilibrio ternarios Fe-Al-V a partir de expansión en cúmulos y método variacional”, conferencista invitada en el “Workshop en Procesamiento Fïsico Químico Avanzado”, Bucaramanga, Colombia, Marzo 2014.
+    15.  P.R. Alonso, “Aplicaciones de técnicas de primeros principios al cálculo de diagramas de fases de equilibrio. Diagrama de fases de equilibrio pseudo-binario UAl3_USi3 a partir de expansión en cúmulos y simulaciones de MonteCarlo”, conferencista invitada en el “Workshop en Procesamiento Fïsico Químico Avanzado”, Bucaramanga, Colombia, Marzo 2014.
+    16.  M.D. Forti, dictado del taller "VASP", conferencista invitado en el “Workshop en Procesamiento Fïsico Químico Avanzado”, Bucaramanga, Colombia, Marzo 2014.
+    17.  M.D. Forti, "Propiedades Mecánicas", conferencista invitado en el “Workshop en Procesamiento Fïsico Químico Avanzado”, Bucaramanga, Colombia, Marzo 2014.
+    18.  D. Tozini, M. Forti, P.H. Gargano, Cálculo de diferencias de carga en interfaces Fe/Fe3O4 a partir de resultados de DFT, Trabajo 5056, 14º Congreso Internacional SAM-CONAMET/IBEROMAT XIII /MATERIA, Santa Fé, 2014.
+    19.  D. Tozini, M.D. Forti, P.H. Gargano, P.R. Alonso, G.H. Rubiolo, Charge difference calculation in Fe/Fe3O4 interfaces from DFT results, Procedia Materials Science 9 (2015) 612 – 618.
+    20.  L. Kniznik, P.R. Alonso, P.H. Gargano , G.H. Rubiolo, Energetics and electronic structure of UAl4 with point defects, Journal of Nuclear Materials 466 (2015) 539-550.
+    21.  M.D. Forti, P.R. Alonso, P.H. Gargano, P.B. Balbuena, G.H. Rubiolo, A DFT study of atomic structure and adhesion at the Fe(BCC)/Fe3O4 interfaces, Surface Science 647 (2016) 55–65.
+    22.  P.H. Gargano, L. Kniznik, P.R. Alonso, M.D. Forti, G.H. Rubiolo, Concentration of constitutional and thermal defects in UAl4, Journal of Nuclear Materials 478 (2016) 74-82.
+    23.  P.A. Ferreirós, P.R. Alonso, G.H. Rubiolo, “Work plan to achieve the technology for the introduction of oxygen micro-addition and beta-niobium second phase particles with optimum size and distribution in the zirconium matrix of Zr-1%Nb alloy” High burnup fuel: Implications and operational experience, Ed. International Atomic Energy Agency (ISSN 978-92-0-155316-4),  Austria 2016.
+    24.  L. Kniznik, P.R. Alonso, P.H. Gargano, G.H. Rubiolo, Evaluación de caminos de difusión de Al en UAl4, Revista Materia. En prensa.
+    25.  P.R. Alonso, P.H. Gargano, M.D. Forti, L. Kniznik, G.H. Rubiolo, Propiedades de superficies de Zr hexagonal y ZrO2 tetragonal de bajo índice a partir de cálculos DFT, Revista Materia. En prensa.
+
+Queremos destacar que el grupo ha recibido los siguientes premios:
+    1.  Mención especial a Mariano Forti en el CONCURSO ESTÍMULO A JÓVENES INVESTIGADORES EN CIENCIA Y TECNOLOGÍA DE MATERIALES. Trabajo premiado: Forti M., Balbuena P. y Alonso P., ESTUDIOS AB-INITIO SOBRE CARBURACIÓN EN ALEACIONES DE BASE Fe3Al, 11º Congreso Binacional de Metalurgia y Materiales SAM / CONAMET  2011, 18 al 21 de Octubre de 2011 - Rosario, Argentina.
+    2.  PREMIO JORGE KITTL. Mejor trabajo en Investigación Básica en Ciencia de Materiales. Trabajo premiado: Paula R. Alonso, Pablo H.Gargano y Gerardo H. Rubiolo, ESTADO FUNDAMENTAL DEL PSEUDO BINARIO Al3U-Si3U POR PRIMEROS PRINCIPIOS. SOLUCIÓN SÓLIDA U(Al,Si)3, 11º Congreso Binacional de Metalurgia y Materiales SAM / CONAMET  2011, 18 al 21 de Octubre de 2011 - Rosario, Argentina.
+    3.  PREMIO JORGE KITTL. Mejor trabajo en Investigación Básica en Ciencia de Materiales. Trabajo premiado: Pedro A. Ferreirós, Paula R. Alonso, Pablo H. Gargano, Patricia B. Bozzano, Horacio E. Troiani y Gerardo H. Rubiolo, Transformaciones de fase en aleaciones Fe1-2XAlXVX (X0,15), XIII Congreso Internacional SAM-CONAMET Iguazú 2013, 20 al 23 de agosto de 2013, Iguazú, Misiones, Argentina.
+
+13. Proyectos científicos y/o tecnológicos de los que participaría esta tesis 
+“Buscando una nueva aleación para el elemento combustible CAREM-25” – ANPCyT, PICT-2015-2267. Titular: Gerardo H. Rubiolo. Grupo Responsable: Paula R. Alonso, Pablo H. Gargano, Liliana A. Lanzani. Grupo Colaborador: Laura Kniznik, Pedro A. Ferreirós, Mariano D. Forti, Héctor A. Raffaelli, Sergio V. Ilarri, Mario A. Acosta, Perla B. Balbuena. Fecha de vigencia: 2016 – 2019.
+
+14. Bibliografía general
