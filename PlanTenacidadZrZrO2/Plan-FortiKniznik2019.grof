@@ -1,17 +1,18 @@
-﻿.TL 
-Maestría en Ciencia y Tecnología de Materiales UNSAM / CNEA Plan de Maestría 2019
+﻿.AM
+.TL 
+Maestri\*[']a en Ciencia y Tecnologi\*[']a de Materiales UNSAM / CNEA Plan de Maestri\*[']a 2019
 
 .NH 1 
-Título de la Tesis 
+Ti\*[']tulo de la Tesis 
 
 .PP
-Modelización Atomística de la tenacidad de interfaces Zr / ZrO2
+Modelización Atomi\*[']stica de la tenacidad de interfaces Zr / ZrO2
 
 .NH 1
 Lugar en donde se realizará 
 
 .PP
-División Aleaciones Especiales, Gerencia Materiales, Gerencia de Área Energía 
+División Aleaciones Especiales, Gerencia Materiales, Gerencia de Área Energi\*[']a 
 Nuclear
 
 
@@ -22,7 +23,7 @@ Directores
 Mariano Daniel Forti
 
 .PP
-Doctor en Ciencia y Tecnología, Mención Materiales, Instituto Sabato 
+Doctor en Ciencia y Tecnologi\*[']a, Mención Materiales, Instituto Sabato 
 UNSAM-CNEA. Investigador CNEA / Docente UNSAM. 
 Contacto: mforti@cnea.gov.ar, Interno CAC 7832.
 
@@ -30,7 +31,7 @@ Contacto: mforti@cnea.gov.ar, Interno CAC 7832.
 Laura Kniznik
 
 .PP
-Doctora UBA, área Ciencias Físicas , Investigadora CNEA / Docente UNSAM y UBA. 
+Doctora UBA, área Ciencias Fi\*[']sicas , Investigadora CNEA / Docente UNSAM y UBA. 
 Contacto: kniznik@cnea.gov.ar, Interno CAC: 7832.
 
 
@@ -44,7 +45,7 @@ La realización de este trabajo no implica un acuerdo de confidencialidad.
 Introducción 
 
 .PP
-El uso de los reactores nucleares como fuente de energía se ha extendido y 
+El uso de los reactores nucleares como fuente de energi\*[']a se ha extendido y 
 consolidado en la segunda mitad del siglo XX y en los inicios de este siglo 
 XXI. La continuidad de este recurso depende en gran medida de que las plantas 
 nucleares sean cada vez más seguras y confiables, lo cual implica un 
@@ -60,10 +61,10 @@ refrigerantes de CNA-I en 1988.
 .PP
 La capa de óxido que se forma sobre la superficie metálica se comporta como una 
 protección contra la absorción de hidrógeno y la degradación. Si la capa de 
-óxido se rompe por la formación de fisuras, la película de óxido cercana a la 
+óxido se rompe por la formación de fisuras, la peli\*[']cula de óxido cercana a la 
 superficie se enriquece en hidrógeno favoreciendo la difusión hacia el metal en 
 detrimento de su resistencia mecánica. La formación de fisuras puede ocurrir 
-debido a la transformación del óxido tetragonal a monoclínico dado que dicha 
+debido a la transformación del óxido tetragonal a monocli\*[']nico dado que dicha 
 transformación involucra cambios de volumen que pueden inducir tensiones 
 internas. El objetivo de minimizar los efectos de dicha transformación requiere 
 el control de la textura y de la composición de la superficie metálica. Una 
@@ -76,22 +77,22 @@ pero el modo
 de falla de la capa de óxido depende del espesor de la misma y del estado de 
 tensiones del sistema metal-óxido por lo que el conocimiento de las propiedades 
 de la interfaz es de vital importancia. Debe conocerse la tenacidad de la 
-interfaz Zr/ZrO2 (tetragonal) y el tamaño crítico del defecto desde donde 
+interfaz Zr/ZrO2 (tetragonal) y el tamaño cri\*[']tico del defecto desde donde 
 comenzará la fisura. Existen pocos datos fiables experimentales de la tenacidad 
 de la interfaz metal/óxido. La alternativa que utilizamos se basa en un cálculo 
-teórico a escala atomística, la Teoría de la Funcional Densidad (DFT) 
+teórico a escala atomi\*[']stica, la Teori\*[']a de la Funcional Densidad (DFT) 
 \cite{KohnSham65,HohenbergKohn64}. La 
-investigación teórica de esta interfaz podría dar condiciones de preferencia de 
+investigación teórica de esta interfaz podri\*[']a dar condiciones de preferencia de 
 diseño de la superficie metálica para disminuir la probabilidad de falla.
 6. Objetivos del Trabajo
-EL objetivo principal del trabajo es calcular, dentro del marco de la Teoría de 
+EL objetivo principal del trabajo es calcular, dentro del marco de la Teori\*[']a de 
 la Funcional Densidad la tenacidad de la interfaz Zr / ZrO2, con los siguientes 
 pasos:
 
-6.1  Cálculo de las energías totales de los bloques de Zr y de ZrO2.
+6.1  Cálculo de las energi\*[']as totales de los bloques de Zr y de ZrO2.
 El estudio de las superficies es necesario para la construcción del modelo de 
 interfaz.
-6.2  Cálculo de la energía de la interfaz.
+6.2  Cálculo de la energi\*[']a de la interfaz.
 Se analizarán composición y orientaciones de las superficies para elegir la 
 configuración más probable.
 6.3  Resistencia de la interfaz.
@@ -111,16 +112,16 @@ basados en la DFT. Al mismo tiempo aprenderá las relaciones entre los
 parámetros involucrados en los modelos y las cantidades observables 
 experimentalmente.
 Esta experiencia implica el diseño de la estrategia de cálculo, la 
-determinación de los parámetros específicos de acuerdo a su significado teórico 
+determinación de los parámetros especi\*[']ficos de acuerdo a su significado teórico 
 y el análisis constante de los resultados. La toma de decisiones durante el 
 desarrollo de la tesis surgirá tanto del análisis de las mediciones como de la 
-comparación crítica de los valores propios con los de la literatura.
+comparación cri\*[']tica de los valores propios con los de la literatura.
 7.3  Conocimiento del sistema interfacial Zr/ZrO2
-Habrá ganado conocimiento específico sobre los temas del proyecto, 
+Habrá ganado conocimiento especi\*[']fico sobre los temas del proyecto, 
 microestructura y tenacidad de la interfaz metal / óxido metálico. 
 7.4  Desarrollo profesional
 Se habrá desempeñado profesionalmente en un grupo de trabajo, con la 
-oportunidad de participar de discusiones y de fortalecer su sentido crítico y 
+oportunidad de participar de discusiones y de fortalecer su sentido cri\*[']tico y 
 su capacidad colaborativa.
 7.5  Habilidades de comunicación
 Finalmente, se pondrá énfasis en la habilidad de comunicación de los 
@@ -133,15 +134,15 @@ entre los constituyentes de la interfaz. Por otro lado debe hacerse un recuento
 de las áreas de incidencia tecnológica del problema. También se deberá hacer 
 una búsqueda constante durante todo el periodo sobre nuevos datos 
 experimentales de adhesión en el sistema de interés
-8.2  Construcción del modelo atomístico de la interfaz.
+8.2  Construcción del modelo atomi\*[']stico de la interfaz.
 A partir de las relaciones de orientaciones obtenida de la revisión 
 bibliográfica, se construirán los modelos de interfaz para las posibles 
-configuraciones de apilamiento a nivel atomístico, entre las posibilidades que 
+configuraciones de apilamiento a nivel atomi\*[']stico, entre las posibilidades que 
 no se puedan discernir experimentalmente. Se construirán los bloques 
 superficiales en función de estos datos haciendo un estudio de convergencia de 
 las propiedades superficiales en función del número de capas atómicas y los 
 parámetros de cálculo. Con los bloques superficiales se armará por apilamiento 
-los modelos de interfaz. Utilizando los resultados de los cálculos de energía 
+los modelos de interfaz. Utilizando los resultados de los cálculos de energi\*[']a 
 en función de la separación interfacial para las distintas configuraciones 
 \cite{Jiangetal} 
 se decidirá la interfaz más adherida.
@@ -167,7 +168,7 @@ Cronograma estimado de cada una de las actividades
 
 
  (deben totalizar 13 
-meses incluido un mínimo de 3 meses para escritura y defensa) 
+meses incluido un mi\*[']nimo de 3 meses para escritura y defensa) 
 
 
 Actividad
@@ -175,7 +176,7 @@ Meses
 
 \begin{table}
 
-   & Revisión bibliográfica &Entrenamiento en el código de cálculo&Cálculo de los bloques relajados de metal y óxido por separado&Cálculo de la energía de la interfaz metal/óxido en función de la separación &Análisis de resultados y escritura de la Tesis
+   & Revisión bibliográfica &Entrenamiento en el código de cálculo&Cálculo de los bloques relajados de metal y óxido por separado&Cálculo de la energi\*[']a de la interfaz metal/óxido en función de la separación &Análisis de resultados y escritura de la Tesis
 1  & X                      &X                                    &                                                              &                                                                             &
 2  & X                      &X                                    &                                                              &                                                                             &
 3  &                        &X                                    &X                                                             &                                                                             &
@@ -225,13 +226,13 @@ difusión que dieron también lugar a publicaciones en revistas internacionales.
 \begin{enumarate}
 
 
-\item Tesis de Doctorado en Ciencia y Tecnología, Mención Materiales, 
-Instituto Sabato, UNSAM: “Modelo atomístico/continuo aplicado a la fractura de 
-la capa de óxido en tuberías de reactores nucleares de potencia”. Mariano Forti 
+\item Tesis de Doctorado en Ciencia y Tecnologi\*[']a, Mención Materiales, 
+Instituto Sabato, UNSAM: “Modelo atomi\*[']stico/continuo aplicado a la fractura de 
+la capa de óxido en tuberi\*[']as de reactores nucleares de potencia”. Mariano Forti 
 , 2017.
 
-\item Tesis de Doctorado UBA, área Ciencias Físicas: “Defectos 
-constitucionales y energía de migración de aluminio en UAl4”. Laura Kniznik, 
+\item Tesis de Doctorado UBA, área Ciencias Fi\*[']sicas: “Defectos 
+constitucionales y energi\*[']a de migración de aluminio en UAl4”. Laura Kniznik, 
 2016. 
 
 \end{enumerate}
@@ -241,7 +242,7 @@ constitucionales y energía de migración de aluminio en UAl4”. Laura Kniznik,
 
 
 
-\item  G.E. Ramírez-Caballero, P.B. Balbuena, P. R. Alonso, P.H. Gargano, G. 
+\item  G.E. Rami\*[']rez-Caballero, P.B. Balbuena, P. R. Alonso, P.H. Gargano, G. 
 H. Rubiolo, Carbon Adsorption and Absorption in the (111) L12 Fe3Al Surface, J. 
 Phys. Chem. C 113 (2009) 18321–18330.
 
@@ -249,7 +250,7 @@ Phys. Chem. C 113 (2009) 18321–18330.
 Ab-initio and many body potential approaches, Physica B: Condensed Matter 404 
 Issue 18 (2009) 2851-2853.
 
-\item P.R. Alonso, P.H. Gargano, G.E. Ramírez-Caballero, P.B. Balbuena, G.H. 
+\item P.R. Alonso, P.H. Gargano, G.E. Rami\*[']rez-Caballero, P.B. Balbuena, G.H. 
 Rubiolo, First principles calculation of L21 + A2 coherent equilibria in the 
 Fe-Al-Ti system, Physica B: Condensed Matter 404 Issue 18 (2009) 2845-2847. 
 
@@ -257,7 +258,7 @@ Fe-Al-Ti system, Physica B: Condensed Matter 404 Issue 18 (2009) 2845-2847.
 study of phase stabilities in bcc Cu-Al alloy, Modelling Simul. Mater. Sci. 
 Eng. 19 (2011) 015008 (15pp).
 
-\item  P.R. Alonso, P.H. Gargano, P.B. Bozzano, G.E. Ramírez-Caballero, P.B. 
+\item  P.R. Alonso, P.H. Gargano, P.B. Bozzano, G.E. Rami\*[']rez-Caballero, P.B. 
 Balbuena, G.H. Rubiolo, Combined ab initio and experimental study of A2 + L21 
 coherent equilibria in the Fe-Al-X (X=Ti, Nb, V) systems, Intermetallics 19 
 Issue 8 (2011) 1157-1167. 
@@ -301,21 +302,21 @@ Science 8 (2015) 1066 – 1072.
 \item  P.R. Alonso, “Aplicaciones de técnicas de primeros principios al 
 cálculo de diagramas de fases de equilibrio. Diagramas de fases de equilibrio 
 ternarios Fe-Al-V a partir de expansión en cúmulos y método variacional”, 
-conferencista invitada en el “Workshop en Procesamiento Fïsico Químico 
+conferencista invitada en el “Workshop en Procesamiento Fïsico Qui\*[']mico 
 Avanzado”, Bucaramanga, Colombia, Marzo 2014.
 
 \item  P.R. Alonso, “Aplicaciones de técnicas de primeros principios al 
 cálculo de diagramas de fases de equilibrio. Diagrama de fases de equilibrio 
 pseudo-binario UAl3_USi3 a partir de expansión en cúmulos y simulaciones de 
 MonteCarlo”, conferencista invitada en el “Workshop en Procesamiento Fïsico 
-Químico Avanzado”, Bucaramanga, Colombia, Marzo 2014.
+Qui\*[']mico Avanzado”, Bucaramanga, Colombia, Marzo 2014.
 
 \item M.D. Forti, dictado del taller "VASP", conferencista invitado en el 
-“Workshop en Procesamiento Fïsico Químico Avanzado”, Bucaramanga, Colombia, 
+“Workshop en Procesamiento Fïsico Qui\*[']mico Avanzado”, Bucaramanga, Colombia, 
 Marzo 2014.
 
 \item  M.D. Forti, "Propiedades Mecánicas", conferencista invitado en el 
-“Workshop en Procesamiento Fïsico Químico Avanzado”, Bucaramanga, Colombia, 
+“Workshop en Procesamiento Fïsico Qui\*[']mico Avanzado”, Bucaramanga, Colombia, 
 Marzo 2014.
 
 \item  D. Tozini, M. Forti, P.H. Gargano, Cálculo de diferencias de carga en 
@@ -346,8 +347,8 @@ Materials 478 (2016) 74-82.
 \begin{enumerate} 
 
 
-\item  Mención especial a Mariano Forti en el CONCURSO ESTÍMULO A JÓVENES 
-INVESTIGADORES EN CIENCIA Y TECNOLOGÍA DE MATERIALES. Trabajo premiado: Forti 
+\item  Mención especial a Mariano Forti en el CONCURSO ESTi\*[']MULO A JÓVENES 
+INVESTIGADORES EN CIENCIA Y TECNOLOGi\*[']A DE MATERIALES. Trabajo premiado: Forti 
 M., Balbuena P. y Alonso P., ESTUDIOS AB-INITIO SOBRE CARBURACIÓN EN ALEACIONES 
 DE BASE Fe3Al, 11º Congreso Binacional de Metalurgia y Materiales SAM / CONAMET 
 2011, 18 al 21 de Octubre de 2011 - Rosario, Argentina.
@@ -368,7 +369,7 @@ Misiones, Argentina.
 \end{enumerate}
 
 .NH 2
- Proyectos científicos y/o tecnológicos de los que participaría esta tesis  
+ Proyectos cienti\*[']ficos y/o tecnológicos de los que participari\*[']a esta tesis  
 
 
 \begin{enumerate}
