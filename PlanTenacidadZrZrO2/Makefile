@@ -15,4 +15,6 @@ clean:
 	  -o -iname \*.bbl\
 	  -o -iname \*.log\
 	  -o -iname \*.blg\
+	  -o -iname \.\*.swp\
+	  -o -iname \*.xml\
 	  |xargs rm 
