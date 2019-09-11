@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{KohnSham65}
+W.~Kohn and L.~Sham, ``Self-consistent equations including exchange and
+  correlation effects,'' {\em Physical Review}, no.~140, p.~A1133–A1138,
+  1965.
+\newblock doi:10.1103/PhysRev.140.A1133.
+
+\bibitem{HohenbergKohn64}
+P.~Hohenberg and W.~Kohn, ``Inhomogeneous electron gas,'' {\em Physical
+  Review}, no.~136, p.~B864–B871, 1964.
+
+\bibitem{Bloch1994}
+P.~E. Blöch, ``Projector augmented-wave method,'' {\em Physical Review B},
+  no.~50, p.~13063–17979, 1994.
+
+\bibitem{Kresse1999}
+G.~Kresse and D.~Joubert, ``From ultrasoft pseudopotentials to the projector
+  augmented-wave method,'' {\em Physical Review B}, no.~59, p.~1758–1775.,
+  1999.
+
+\bibitem{Hafner2007}
+J.~Hafner, ``Materials simulations using vasp—a quantum perspective to
+  materials science,'' {\em Computer Physics Communications}, no.~177,
+  pp.~6--13, 2007.
+
+\bibitem{Hafner2008}
+J.~Hafner, ``Ab-initio simulations of materials using vasp: Density-functional
+  theory and beyond,'' {\em Journal of Computational Chemistry}, no.~29,
+  p.~2044–2078, 2008.
+
+\bibitem{PBE}
+J.~Perdew, K.~Burke, and M.~Ernzerhof, ``Generalized gradient approximation
+  made simple.,'' {\em Physical Review Letters}, no.~77, p.~3865–3868, 1996.
+
+\end{thebibliography}
