@@ -1,0 +1,426 @@
+\begin{center}
+
+Maestría en Ciencia y Tecnología de Materiales UNSAM / CNEA
+
+Plan de Maestría 2020
+
+\end{center}
+
+\section{ Título de la Tesis }
+
+Modelización Atomística de la tenacidad de interfaces Zr / ZrO2
+
+\section{ Lugar en donde se realizará }
+División Aleaciones Especiales, Gerencia Materiales, Gerencia de Área Energía 
+Nuclear
+
+\section{Directores}
+
+\subsubsection{Mariano Daniel Forti}
+
+Doctor en Ciencia y Tecnología, Mención Materiales, Instituto Sabato 
+UNSAM-CNEA. Investigador CNEA / Docente UNSAM. 
+Contacto: \href{mailto:mforti@cnea.gov.ar}{mforti@cnea.gov.ar}, Interno CAC 7832.
+
+\subsubsection{Laura Kniznik}
+
+Doctora en Ciencias Físicas, UBA.Docente UNSAM e Investigador CNEA. Docente UBA.
+Contacto: \href{mailto:kniznik@cnea.gov.ar}{kniznik@cnea.gov.ar}. Interno CAC 7832.
+
+\section{Confidencialidad}
+
+La realización de este trabajo no implica un acuerdo de confidencialidad.
+
+\section{Perfil Preferido del becario para este estudio}
+
+Se busca una persona con buena predisposición para el trabajo
+en equipo e iniciativa para desarrollar estrategias de 
+trabajo. Será de utilidad que pueda leer e interpretar
+material en inglés.  
+
+\section{Introducción }
+
+El uso de los reactores nucleares como fuente de energía se ha extendido y 
+consolidado en la segunda mitad del siglo XX y en los inicios de este siglo 
+XXI. La continuidad de este recurso depende en gran medida de que las plantas 
+nucleares sean cada vez más seguras y confiables, lo cual implica un 
+mejoramiento de todos los aspectos relacionados con su operación. Entre ellos 
+se cuenta la integridad de los elementos estructurales, que depende fuertemente 
+de la estabilidad mecánica de los óxidos protectores. En las centrales CNA-I y 
+CNA-II el Zircaloy-4 (aleación base Zr con adiciones de Sn, Fe and Cr) se 
+utiliza en los canales refrigerantes\cite{Estevez2000}. Sin embargo, esta 
+aleación presenta 
+problemas de corrosión que, por ejemplo, motivaron el reemplazo de los canales 
+refrigerantes de CNA-I en 1988.
+
+La capa de óxido que se forma sobre la superficie metálica se comporta como una 
+protección contra la absorción de hidrógeno y la degradación. Si la capa de 
+óxido se rompe por la formación de fisuras, la película de óxido cercana a la 
+superficie se enriquece en hidrógeno favoreciendo la difusión hacia el metal en 
+detrimento de su resistencia mecánica. La formación de fisuras puede ocurrir 
+debido a la transformación del óxido tetragonal a monoclínico dado que dicha 
+transformación involucra cambios de volumen que pueden inducir tensiones 
+internas. El objetivo de minimizar los efectos de dicha transformación requiere 
+el control de la textura y de la composición de la superficie metálica. Una 
+estrategia para evaluar la resistencia de la interfaz metal/óxido, consiste en 
+el cálculo del trabajo de separación de dicha interfaz.
+
+El desprendimiento es función del espesor de la capa de óxido\cite{Schutze2005},
+pero el modo 
+de falla de la capa de óxido depende del espesor de la misma y del estado de 
+tensiones del sistema metal-óxido por lo que el conocimiento de las propiedades 
+de la interfaz es de vital importancia. Debe conocerse la tenacidad de la 
+interfaz Zr/ZrO\textsubscript{2} (tetragonal) y el tamaño crítico del defecto desde donde 
+comenzará la fisura. Existen pocos datos fiables experimentales de la tenacidad 
+de la interfaz metal/óxido. La alternativa que utilizamos se basa en un cálculo 
+teórico a escala atomística, la Teoría de la Funcional Densidad (DFT) 
+\cite{KohnSham65,HohenbergKohn64}. La 
+investigación teórica de esta interfaz podría dar condiciones de preferencia de 
+diseño de la superficie metálica para disminuir la probabilidad de falla.
+
+\section{Objetivos del Trabajo}
+
+EL objetivo principal del trabajo es calcular, dentro del marco de la Teoría de 
+la Funcional Densidad las propiedades de adhesión de la interfaz Zr / ZrO\textsubscript{2}, 
+procediendo como se explica a continuación.
+
+\subsection{Identificación de las relaciones de orientación en la interfaz}
+
+Para construir la interfaz deben conocerse las relaciones de orientación de las estructuras
+cristalinas. Existe poca evidencia experimental de las orientaciones preferenciales. 
+Motta\cite{Motta2011} observó mediante difracción de rayos X las relaciones de orientación
+
+\begin{equation}
+  (10\bar{1}0) Zr ||  \text{(002) t-ZrO\textsubscript{2}}
+\end{equation}
+
+Por otro lado, el trabajado mecánico que se realiza en las piezas industriales (tuberías, bainas, etc)
+y en especial en las de uso nuclear, define la textura de la superficie metálica. Por ejemplo
+Malamud y colaboradores \cite{Malamud2018} realizó un estudio extausivo para tubos laminados de Zircalloy-4
+que parecen indicar que las facetas $(1 0 \bar{1} 0)$ quedan expuestas en la superficie. Gloaguen y colab.
+\cite{Gloaguen2010}, agregan también una medición de las tensiones residuales resultantes de la 
+laminación. Existe entonces evidencia suficiente para tomar un  modelo atomístico aproximado 
+avitando la necesidad de calcular distintas relaciones de orientación, lo cual puede ser
+considerado en trabajos posteriores.
+
+\subsection{ Cálculo de las energías totales de los bloques de Zr y de ZrO\textsubscript{2}.}
+
+El estudio de las superficies es necesario para la construcción del modelo de 
+interfaz. Alonso y colaboradores \cite{Alonso2018} realizaron un estudio de las superficies de
+Zr y de ZrO\textsubscript{2} tetragonal (t-ZrO\textsubscript{2}), y sus resultados permiten 
+tomar los bloques metálico y de óxido para construir la interfaz. Por otro lado, Ricca
+\cite{ricca2015revealing} realiza un estudio de algunas propiedades de las superficies de 
+distitnas fases de ZrO\textsubscript{2}. 
+
+\subsection{ Cálculo de la energía de la interfaz.}
+
+Aún con la información disponible sobre las superficies de óxido y metal, la relación de 
+orientación puede introducir interrogantes sobre el desajuste entre los cristales y la 
+composición de las superficies para elegir. 
+
+\subsection{Resistencia de la interfaz.}
+
+ Se analizará la respuesta el sistema ante solicitaciones de tracción para 
+obtener el trabajo de separación. 
+
+\section{Descripción sucinta de los conocimientos y habilidades que el/la  
+maestrando/a adquirirá durante este trabajo }
+
+\subsection{ Revisión Bibliográfica}
+
+La revisión bibliográfica será un trabajo constante a lo largo de los 13 meses, 
+a través de la cual se entrenará en métodos de análisis y búsqueda de 
+información.
+
+\subsection{ Cálculos DFT}
+
+Adquirirá experiencia en la aplicación de técnicas de cálculo computacional 
+basados en la DFT. Al mismo tiempo aprenderá las relaciones entre los 
+parámetros involucrados en los modelos y las cantidades observables 
+experimentalmente.
+
+Esta experiencia implica el diseño de la estrategia de cálculo, la 
+determinación de los parámetros específicos de acuerdo a su significado teórico 
+y el análisis constante de los resultados. La toma de decisiones durante el 
+desarrollo de la tesis surgirá tanto del análisis de las mediciones como de la 
+comparación crítica de los valores propios con los de la literatura.
+
+\subsection{ Conocimiento del sistema interfacial Zr/ZrO2 }
+
+Habrá ganado conocimiento específico sobre los temas del proyecto, 
+microestructura y tenacidad de la interfaz metal / óxido metálico. 
+
+\subsection{ Desarrollo profesional}
+
+Se habrá desempeñado profesionalmente en un grupo de trabajo, con la 
+oportunidad de participar de discusiones y de fortalecer su sentido crítico y 
+su capacidad colaborativa.
+
+\subsection{ Habilidades de comunicación }
+
+Finalmente, se pondrá énfasis en la habilidad de comunicación de los 
+resultados, tanto en la identificación de los datos relevantes como en la 
+redacción de los informes. 
+
+\section{Trabajos a realizar}
+
+\subsection{ Revisión Bibliográfica. }
+
+De esta revisión deben decidirse la relación de orientaciones más probable 
+entre los constituyentes de la interfaz. Por otro lado debe hacerse un recuento 
+de las áreas de incidencia tecnológica del problema. También se deberá hacer 
+una búsqueda constante durante todo el periodo sobre nuevos datos 
+experimentales de adhesión en el sistema de interés
+
+\subsection{ Construcción del modelo atomístico de la interfaz.}
+
+A partir de las relaciones de orientaciones obtenida de la revisión 
+bibliográfica, se construirán los modelos de interfaz para las posibles 
+configuraciones de apilamiento a nivel atomístico, entre las posibilidades que 
+no se puedan discernir experimentalmente. Se construirán los bloques 
+superficiales en función de estos datos haciendo un estudio de convergencia de 
+las propiedades superficiales en función del número de capas atómicas y los 
+parámetros de cálculo. Con los bloques superficiales se armará por apilamiento 
+los modelos de interfaz. Utilizando los resultados de los cálculos de energía 
+en función de la separación interfacial para las distintas configuraciones 
+\cite{Jiangetal} 
+se decidirá la interfaz más adherida.
+
+\section{Técnicas experimentales o de cálculo que se usarán}
+
+Los cálculos serán hechos dentro del marco de la DFT \cite{KohnSham65,
+HohenbergKohn64} usando el método 
+Projector Augmented Wave\cite{Bloch1994,Kresse1999}
+implementado en el código Vienna Ab-initio 
+Simulation Package\cite{Hafner2007,Hafner2008}
+en la Aproximación del Gradiente Generalizado según la 
+arametrización PBE \cite{PBE}. 
+
+Se utilizarán herramientas programadas en bash y/o python para procesamiento de 
+texto plano y análisis de resultados. Se utilizarán herramientas de conexión 
+remota nativas de unix / linux para acceso a las facilidades de cálculo.
+
+\section{Cronograma estimado de cada una de las actividades}
+ 
+Las actividades se desarrollarán a lo largo de 13 meses, y se tendrán en cuenta
+incluye un mínimo de 3 meses para escritura y defensa de la Tesis de Maetría 
+
+\begin{table}[H]\footnotesize
+  \rowcolors{4}{gray!20!white}{white!20!gray}
+  \renewcommand{\arraystretch}{2}
+  
+  \begin{tabular}{ | p{3cm} | *{13}{m{0.5cm}} | } %c{2cm}|c{2cm}|c{2cm}|c{2cm}|c{2cm}| }
+  \hline
+    \multicolumn{1}{|c|}{Actividad  } & \multicolumn{13}{c|}{ Mes } \\ [0.5em]
+   \cline{2-14}
+&1&2&3&4&5&6&7&8&9&10&11&12&13\\
+\hline
+
+\hline
+   Revisión bibliográfica & \xmark & \xmark &&&&& \xmark & \xmark & \xmark && \xmark &&\\
+   Entrenamiento en el código de cálculo& \xmark & \xmark & \xmark &&&&&&&&&&\\
+   Cálculo de los bloques relajados de metal y óxido por separado&&& \xmark & \xmark & \xmark &&&&&&&&\\
+   Cálculo de la energía de la interfaz metal/óxido en función de la separación&&&&& \xmark & \xmark & \xmark & \xmark & \xmark & \xmark &&&\\
+   Análisis de resultados y escritura de la Tesis&&&& \xmark & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark \\
+%% \end{tabularx}
+  \hline
+\end{tabular}
+\end{table}
+
+\section{ Materiales e Infraestructura con que se cuenta }
+
+El grupo cuenta con licencia para el uso del código de cálculo VASP\cite{Hafner2007,
+Hafner2008} , y con 
+2 conjuntos de computadoras (clusters), de 32 procesadores cada uno, para 
+cálculo de alto rendimiento utilizados en exclusividad por el grupo. Además, se 
+cuenta con acceso a las facilidades de cálculo de altas prestaciones de la CNEA, 
+que actualmente cuenta con el cluster ISAAC 750 procesadores y el nuevo cluster 
+Neurus de 1040 procesadores.
+
+\section{Experiencia previa del grupo de trabajo en el tema propuesto Aplicaciones 
+de DFT}
+
+En la actualidad la División de Aleaciones Especiales trabaja en el marco de un 
+PICT 2015 y un Proyecto UNSAM 2017-2019. Estos proyectos implican por un lado 
+estudios teóricos de los sistemas Zr metálico y de los defectos puntuales de la 
+ZrO2 y la interacción entre ambos sistemas, pero por otro lado se realizan 
+estudios experimentales para el diseño de nuevas aleaciones de Zr para uso en 
+reactores nucleares de potencia de cuarta generación. 
+Por otro lado, los directores poseen amplia experiencia en el estudio de 
+sistemas interfaciales mediante métodos computacionales. En sus tesis de 
+doctorado se llevaron a cabo estudios de adhesión, defectos puntuales y 
+difusión que dieron también lugar a publicaciones en revistas internacionales. 
+
+\subsection{ Tesis desarrolladas en el grupo en temas de cálculos DFT}
+
+\begin{enumerate}
+
+
+\item Tesis de Doctorado en Ciencia y Tecnología, Mención Materiales, 
+Instituto Sabato, UNSAM: “Modelo atomístico/continuo aplicado a la fractura de 
+la capa de óxido en tuberías de reactores nucleares de potencia”. Mariano Forti 
+, 2017.
+
+\item Tesis de Doctorado UBA, área Ciencias Físicas: “Defectos 
+constitucionales y energía de migración de aluminio en UAl4”. Laura Kniznik, 
+2016. 
+
+\end{enumerate}
+
+\subsection{ Publicaciones del grupo en temas de cálculo DFT}
+
+\begin{enumerate}
+\item  G.E. Ramírez-Caballero, P.B. Balbuena, P. R. Alonso, P.H. Gargano, G. 
+H. Rubiolo, ``Carbon Adsorption and Absorption in the (111) L12 Fe3Al Surface'', J. 
+Phys. Chem. C 113 (2009) 18321–18330.
+
+\item  P.R. Alonso, J.R. Fernández, P.H. Gargano, G.H. Rubiolo, U-Al system. 
+``Ab-initio and many body potential approaches'', Physica B: Condensed Matter 404 
+Issue 18 (2009) 2851-2853.
+
+\item P.R. Alonso, P.H. Gargano, G.E. Ramírez-Caballero, P.B. Balbuena, G.H. 
+Rubiolo, ``First principles calculation of L21 + A2 coherent equilibria in the 
+Fe-Al-Ti system'', Physica B: Condensed Matter 404 Issue 18 (2009) 2845-2847. 
+
+\item  F. Lanzini, P.H. Gargano, P.R. Alonso, G.H. Rubiolo, ``First principles 
+study of phase stabilities in bcc Cu-Al alloy'', Modelling Simul. Mater. Sci. 
+Eng. 19 (2011) 015008 (15pp).
+
+\item  P.R. Alonso, P.H. Gargano, P.B. Bozzano, G.E. Ramírez-Caballero, P.B. 
+Balbuena, G.H. Rubiolo, ``Combined ab initio and experimental study of A2 + L21 
+coherent equilibria in the Fe-Al-X (X=Ti, Nb, V) systems'', Intermetallics 19 
+Issue 8 (2011) 1157-1167. 
+
+\item  L. Kniznik, P.R. Alonso, P.H. Gargano, G.H. Rubiolo, ``Simulation of 
+UAl4 growth in an UAl3/Al diffusion couple'', Journal of Nuclear Materials 414, 
+    309-315. 
+
+\item  P.R. Alonso, P.H. Gargano, G.H. Rubiolo, ``Stability of the C14-laves 
+phase (Fe,Si)2Mo from ab initio calculations'', Computer Coupling of Phase 
+Diagrams and Thermochemistry (Calphad), 35 (2011) 492–498. 
+
+\item  P.R. Alonso, P.H. Gargano, L. Kniznik, L.M. Pizarro, G.H. Rubiolo; 
+``Experimental studies and first principles calculations in nuclear fuel alloys 
+for research reactors'' in Nuclear Materials; Editor: Michael P. Hemsworth. 
+Series: Physics Research and Technology, Materials Science and Technologies. 
+Nova Science Publishers, Inc; 400 Oser Avenue, Suite 1600, Hauppauge, NY 11788, 
+EEUU. ISBN: 978-1-61324-010-6. (Nova Science Publishers, Inc , New York, 2011).
+
+\item  P.R. Alonso, P.H. Gargano, G.H. Rubiolo, ``First principles calculation 
+of the Al3U-Si3U pseudo binary fcc phase equilibrium diagram'', CALPHAD: Computer 
+Coupling of Phase Diagrams and Thermochemistry 38 (2012) 117–121.
+
+\item  M.D. Forti, P.R. Alonso, P.H. Gargano, G.H. Rubiolo, ``Transition 
+metals monoxides. An LDA+U study'', Procedia Materials Science 1 (2012) 230 – 234.
+
+\item L. Kniznik, P.R. Alonso, P.H. Gargano, M.D. Forti, G.H. Rubiolo, ``First 
+principles study of U-Al system ground state'', Procedia Materials Science 1 , 514 – 519.
+
+\item  M.D. Forti, P. Balbuena, P.R. Alonso, ``Ab-initio studies on 
+carburization of Fe3Al based alloys'', Procedia Materials Science 1 (2012) 191 – 
+198.
+
+\item  M.D. Forti, P.R. Alonso, P.H. Gargano, G.H. Rubiolo, ``Adhesion Energy 
+of the Fe(BCC)/Magnetite Interface within the DFT approach'', Procedia Materials 
+Science 8 (2015) 1066 – 1072.
+
+\item  P.R. Alonso, ``Aplicaciones de técnicas de primeros principios al 
+cálculo de diagramas de fases de equilibrio''. ``Diagramas de fases de equilibrio 
+ternarios Fe-Al-V a partir de expansión en cúmulos y método variacional'', 
+conferencista invitada en el ``Workshop en Procesamiento Fïsico Químico 
+Avanzado'', Bucaramanga, Colombia, Marzo 2014.
+
+\item  P.R. Alonso, ``Aplicaciones de técnicas de primeros principios al 
+cálculo de diagramas de fases de equilibrio. Diagrama de fases de equilibrio 
+pseudo-binario UAl3\_USi3 a partir de expansión en cúmulos y simulaciones de 
+MonteCarlo'', conferencista invitada en el ''Workshop en Procesamiento Fïsico 
+Químico Avanzado'', Bucaramanga, Colombia, Marzo 2014.
+
+\item M.D. Forti, dictado del taller ``VASP'', conferencista invitado en el 
+“Workshop en Procesamiento Fïsico Químico Avanzado”, Bucaramanga, Colombia, 
+Marzo 2014.
+
+\item  M.D. Forti, ``Propiedades Mecánicas'', conferencista invitado en el 
+“Workshop en Procesamiento Fïsico Químico Avanzado”, Bucaramanga, Colombia, 
+Marzo 2014.
+
+\item  D. Tozini, M. Forti, P.H. Gargano, Cálculo de diferencias de carga en 
+interfaces Fe/Fe3O4 a partir de resultados de DFT, Trabajo 5056, 14º Congreso 
+Internacional SAM-CONAMET/IBEROMAT XIII /MATERIA, Santa Fé, 2014.
+
+\item  D. Tozini, M.D. Forti, P.H. Gargano, P.R. Alonso, G.H. Rubiolo, 
+Charge difference calculation in Fe/Fe3O4 interfaces from DFT results, Procedia 
+Materials Science 9 (2015) 612 – 618.
+
+\item L. Kniznik, P.R. Alonso, P.H. Gargano , G.H. Rubiolo, Energetics and 
+electronic structure of UAl4 with point defects, Journal of Nuclear Materials 
+466 (2015) 539-550.
+
+\item M.D. Forti, P.R. Alonso, P.H. Gargano, P.B. Balbuena, G.H. Rubiolo, A 
+DFT study of atomic structure and adhesion at the Fe(BCC)/Fe3O4 interfaces, 
+Surface Science 647 (2016) 55–65.
+
+\item  P.H. Gargano, L. Kniznik, P.R. Alonso, M.D. Forti, G.H. Rubiolo, 
+Concentration of constitutional and thermal defects in UAl4, Journal of Nuclear 
+Materials 478 (2016) 74-82.
+\end{enumerate}
+
+\subsection{ Premios recibidos }
+
+\begin{enumerate} 
+
+
+\item  Mención especial a Mariano Forti en el CONCURSO ESTÍMULO A JÓVENES 
+INVESTIGADORES EN CIENCIA Y TECNOLOGÍA DE MATERIALES. Trabajo premiado: Forti 
+M., Balbuena P. y Alonso P., ESTUDIOS AB-INITIO SOBRE CARBURACIÓN EN ALEACIONES 
+DE BASE Fe3Al, 11º Congreso Binacional de Metalurgia y Materiales SAM / CONAMET 
+2011, 18 al 21 de Octubre de 2011 - Rosario, Argentina.
+
+\item  PREMIO JORGE KITTL. Mejor trabajo en Investigación Básica en Ciencia 
+de Materiales. Trabajo premiado: Paula R. Alonso, Pablo H.Gargano y Gerardo H. 
+Rubiolo, ESTADO FUNDAMENTAL DEL PSEUDO BINARIO Al3U-Si3U POR PRIMEROS 
+PRINCIPIOS. SOLUCIÓN SÓLIDA U(Al,Si)3, 11º Congreso Binacional de Metalurgia y 
+Materiales SAM / CONAMET 2011, 18 al 21 de Octubre de 2011 - Rosario, Argentina.
+
+\item  PREMIO JORGE KITTL. Mejor trabajo en Investigación Básica en Ciencia 
+de Materiales. Trabajo premiado: Pedro A. Ferreirós, Paula R. Alonso, Pablo H. 
+Gargano, Patricia B. Bozzano, Horacio E. Troiani y Gerardo H. Rubiolo, 
+    Transformaciones de fase en aleaciones $Fe_{1-2X}Al_X V_X$ (X=1,15), XIII Congreso 
+Internacional SAM-CONAMET Iguazú 2013, 20 al 23 de agosto de 2013, Iguazú, 
+Misiones, Argentina.
+
+\end{enumerate}
+
+\section{ Proyectos científicos y/o tecnológicos de los que participaría esta tesis  }
+
+\begin{itemize}
+
+\item Los temas a desarrollar en esta Tesis de Maestría son parte de un proyecto
+PICT-2018-01671 ``Simulación y ensayo de una aleación propuesta para reactores nucleares de alto quemado''.
+
+\end{itemize}
+
+
+
+\bibliography{Bibliography}
+\bibliographystyle{ieeetr}
+
+\vspace{2cm}
+\begin{table}[h!]
+  \begin{tabular*}{\textwidth}{ *{3}{>\centering p{0.3\textwidth} } }
+    &\\
+    \hline
+%    \begin{tikzpicture}[overlay, baseline]
+%      \node at (1,0.4) {
+%      \includegraphics[width=0.3\textwidth]
+%      {/home/mariano/Documents/Documentaciones/FirmasMariano.png}
+%    };
+%      \node at (6,1) {
+%      \includegraphics[width=0.3\textwidth]
+%      {../Firmas/FirmaKniznik.pdf}
+%    };
+%    \end{tikzpicture}
+    Mariano Forti & Laura Kniznik & Ruben González\\
+  \end{tabular*}
+\end{table}
+

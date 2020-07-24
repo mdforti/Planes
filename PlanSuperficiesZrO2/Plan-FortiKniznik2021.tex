@@ -1,14 +1,12 @@
 \begin{center}
 
-Maestría en Ciencia y Tecnología de Materiales UNSAM / CNEA
-
-Plan de Maestría 2020
+Plan para Trabajo Final de Ingeniería 2021
 
 \end{center}
 
-\section{ Título de la Tesis }
+\section{ Título del Trabajo }
 
-Modelización Atomística de la tenacidad de interfaces Zr / ZrO2
+Modelización Atomística de los procesos de fractura del ZrO\textsubscript{2}
 
 \section{ Lugar en donde se realizará }
 División Aleaciones Especiales, Gerencia Materiales, Gerencia de Área Energía 
@@ -24,16 +22,13 @@ Contacto: \href{mailto:mforti@cnea.gov.ar}{mforti@cnea.gov.ar}, Interno CAC 7832
 
 \subsubsection{Pablo Gargano}
 
-Licenciado en Ciencias Físicas. Docente UNSAM e Investigador CNEA.
-Contacto: \href{mailto:gargano@cnea.gov.ar}{gargano@cnea.gov.ar}. Interno CAC 7247.
+Licenciado en Ciencias Físicas, UBA.Docente UNSAM e Investigador CNEA.
+Contacto: \href{mailto:gargano@cnea.gov.ar}{gargano@cnea.gov.ar}.
 
-\section{Confidencialidad}
+\section{Perfil Preferido del Estudiante para este estudio}
 
-La realización de este trabajo no implica un acuerdo de confidencialidad.
-
-\section{Perfil Preferido del becario para este estudio}
-
-Se busca una persona y buena predisposición para el trabajo
+Estudiante el último semestre de Ingeniería en materiales.
+Se busca una persona con buena predisposición para el trabajo
 en equipo e iniciativa para desarrollar estrategias de 
 trabajo. Será de utilidad que pueda leer e interpretar
 material en inglés.  
@@ -57,52 +52,98 @@ La capa de óxido que se forma sobre la superficie metálica se comporta como un
 protección contra la absorción de hidrógeno y la degradación. Si la capa de 
 óxido se rompe por la formación de fisuras, la película de óxido cercana a la 
 superficie se enriquece en hidrógeno favoreciendo la difusión hacia el metal en 
-detrimento de su resistencia mecánica. La formación de fisuras puede ocurrir 
-debido a la transformación del óxido tetragonal a monoclínico dado que dicha 
+detrimento de su resistencia mecánica\cite{Schutze2005}.
+La formación de fisuras puede ocurrir 
+debido a la transformación del óxido tetragonal (t-ZrO\textsubscript{2} ) 
+a monoclínico (m-ZrO\textsubscript{2}) \cite{Li2007, Motta2011}  dado que dicha 
 transformación involucra cambios de volumen que pueden inducir tensiones 
 internas. El objetivo de minimizar los efectos de dicha transformación requiere 
 el control de la textura y de la composición de la superficie metálica. Una 
-estrategia para evaluar la resistencia de la interfaz metal/óxido, consiste en 
-el cálculo del trabajo de separación de dicha interfaz.
+estrategia para evaluar la resistencia del óxido consiste en 
+el la estimación de las propiedades mecáncias de las fases presentes
+y de los mecanismos de fractura intervinientes.
 
-El desprendimiento es función del espesor de la capa de óxido\cite{Schutze2005},
-pero el modo 
-de falla de la capa de óxido depende del espesor de la misma y del estado de 
+El desprendimiento del óxido es función del espesor de la capa de óxido\cite{Schutze2005},
+pero el modo de falla de la capa protectora depende del espesor de la misma y del estado de 
 tensiones del sistema metal-óxido por lo que el conocimiento de las propiedades 
 de la interfaz es de vital importancia. Debe conocerse la tenacidad de la 
-interfaz Zr/ZrO2 (tetragonal) y el tamaño crítico del defecto desde donde 
+interfaz Zr/ZrO\textsubscript{2}  pero también las interfaz
+m-ZrO\textsubscript{2}/t-ZrO\textsubscript{2}y el tamaño crítico del defecto desde donde 
 comenzará la fisura. Existen pocos datos fiables experimentales de la tenacidad 
 de la interfaz metal/óxido. La alternativa que utilizamos se basa en un cálculo 
-teórico a escala atomística, la Teoría de la Funcional Densidad (DFT) 
+teórico a escala atomística utilizando la Teoría de la Funcional Densidad (DFT) 
 \cite{KohnSham65,HohenbergKohn64}. La 
-investigación teórica de esta interfaz podría dar condiciones de preferencia de 
+investigación teórica de estas interfaces podría dar condiciones de preferencia de 
 diseño de la superficie metálica para disminuir la probabilidad de falla.
 
 \section{Objetivos del Trabajo}
 
-EL objetivo principal del trabajo es calcular, dentro del marco de la Teoría de 
-la Funcional Densidad la tenacidad de la interfaz Zr / ZrO2, procediendo como
-se explica a continuación.
+Como requerimiento en el estudio de las interfaces, es necesario conocer las 
+propiedades superficiales de los óxidos. 
+EL objetivo principal del trabajo es calcular, dentro del marco de la DFT
+las energías de fractura de las distintas fases del 
+ZrO\textsubscript{2}, en las distintas orientaciones cristalinas posibles.
 
-\subsection{ Cálculo de las energías totales de los bloques de Zr y de ZrO2.}
+\subsection{Caracterización del estado de equilibrio del ZrO\textsubscript{2}}
 
-El estudio de las superficies es necesario para la construcción del modelo de 
-interfaz.
+El ZrO\textsubscript{2} es estable con la estructura monoclínica (m-ZrO\textsubscript{2 })
+a baja temperatura. A temperaturas intermedias, se estabiliza la fase tetragonal 
+(t-ZrO\textsubscript{2}), pero en los óxidos protectores esta última puede estar presente
+en cantidades considerables \cite{Li2007} ya que puede estabilizarse por tensiones
+\cite{Motta2011}. A altas temperaturas, la fase estable es la cúbica (c-ZrO\textsubscript{2}).
+Para tomar contacto con las herramientas, se propone estudiar las fases en volumen 
+teniendo la optimización de los cristales y sus propiedades elásticas y electrónicas.
 
-\subsection{ Cálculo de la energía de la interfaz.}
+\begin{figure}
+  \center
+  \includegraphics[width=0.25\textwidth]{Figuras/mZrO2_mp-2858_conventional_standard.pdf}
+  \includegraphics[width=0.25\textwidth]{Figuras/tZrO2_mp-2574_conventional_standard.pdf}
+  \includegraphics[width=0.25\textwidth]{Figuras/cZrO2_mp-1565_conventional_standard.pdf}
 
-Se analizarán composición y orientaciones de las superficies para elegir la 
-configuración más probable.
+  \caption{\protect \label{FiguraCristalesZrO2}
+  Estructuras Cristalinas del ZrO\textsubscript{2}, monoclínica (izquierda), tetragonal (centro)
+  y cúbica (derecha)
+  }
+\end{figure}
 
-\subsection{Resistencia de la interfaz.}
+\subsection{ Cálculo de las energías totales de los bloques de ZrO\textsubscript{2}.}
 
- Se analizará la respuesta el sistema ante solicitaciones de tracción para 
-obtener el trabajo de separación. La tenacidad de la interfaz metal/óxido se 
-obtendrá integrando la relación tracción-separación del óxido respecto del 
-metal.
+Las propiedades superficiales de la ZrO2 han sido en parte estudiadas por
+Alonso y colaboradores \cite{Alonso2018}. Por otro lado, Ricca
+\cite{ricca2015revealing} realiza un estudio de algunas propiedades de las superficies de 
+distintas fases de ZrO\textsubscript{2}. Sin embargo, algunas discrepancias entre las referencias
+ameritan extender un poco los estudios. 
 
-\section{Descripción sucinta de los conocimientos y habilidades que el/la  
-maestrando/a adquirirá durante este trabajo }
+Por ejemplo las aleaciones de Zr trabajadas mecánicamente adquieren
+cierta textura \cite{Malamud2018,Gloaguen2010} que predispone algunas relaciones de orientación 
+con el óxido protector. Por lo tanto es necesario investigar las propiedades de las orientaciones
+quizá menos estables termodinámicamente. 
+
+\subsection{Cálculo de las energías de fractura del ZrO\textsubscript{2}}
+
+Las Energías de fractura de un cristal pueden obtenerse mediante un cálculo directo 
+a partir de los resultados de energías obtenidas por DFT. La metodología ha sido 
+ampliamente aplicada en otros sistemas \cite{Liao2010, Liao2010a, Forti2016}. Sin embargo 
+no se han encontrado estudios detallados para las distintas fases del ZrO\textsubscript{2}, 
+por lo que se pretende avanzar en esta dirección. De ser posible, deberán estudiarse distintas
+orientaciones cristalinas para tener un mapa completo de las resistencias relativas entre
+los distintos planos cristalinos de las distintas fases. 
+
+\section{Técnicas de cálculo que se usarán}
+
+Los cálculos serán hechos dentro del marco de la DFT \cite{KohnSham65,
+HohenbergKohn64} usando el método 
+Projector Augmented Wave\cite{Bloch1994,Kresse1999}
+implementado en el código Vienna Ab-initio 
+Simulation Package\cite{Hafner2007,Hafner2008}
+en la Aproximación del Gradiente Generalizado según la 
+arametrización PBE \cite{PBE}. 
+
+Se utilizarán herramientas programadas en bash y/o python para procesamiento de 
+texto plano y análisis de resultados. Se utilizarán herramientas de conexión 
+remota nativas de unix / linux para acceso a las facilidades de cálculo.
+
+\section{Habilidades que desarrollará el estudiante}
 
 \subsection{ Revisión Bibliográfica}
 
@@ -123,10 +164,11 @@ y el análisis constante de los resultados. La toma de decisiones durante el
 desarrollo de la tesis surgirá tanto del análisis de las mediciones como de la 
 comparación crítica de los valores propios con los de la literatura.
 
-\subsection{ Conocimiento del sistema interfacial Zr/ZrO2 }
+\subsection{Conocimiento de las propiedades del  ZrO\textsubscript{2}}
 
 Habrá ganado conocimiento específico sobre los temas del proyecto, 
-microestructura y tenacidad de la interfaz metal / óxido metálico. 
+cálculos específicos de superficie mediante DFT, técnicas de análisis
+de propiedades estructurales y electrónicas de cristales y superficies. 
 
 \subsection{ Desarrollo profesional}
 
@@ -140,73 +182,33 @@ Finalmente, se pondrá énfasis en la habilidad de comunicación de los
 resultados, tanto en la identificación de los datos relevantes como en la 
 redacción de los informes. 
 
-\section{Trabajos a realizar}
-
-\subsection{ Revisión Bibliográfica. }
-
-De esta revisión deben decidirse la relación de orientaciones más probable 
-entre los constituyentes de la interfaz. Por otro lado debe hacerse un recuento 
-de las áreas de incidencia tecnológica del problema. También se deberá hacer 
-una búsqueda constante durante todo el periodo sobre nuevos datos 
-experimentales de adhesión en el sistema de interés
-
-\subsection{ Construcción del modelo atomístico de la interfaz.}
-
-A partir de las relaciones de orientaciones obtenida de la revisión 
-bibliográfica, se construirán los modelos de interfaz para las posibles 
-configuraciones de apilamiento a nivel atomístico, entre las posibilidades que 
-no se puedan discernir experimentalmente. Se construirán los bloques 
-superficiales en función de estos datos haciendo un estudio de convergencia de 
-las propiedades superficiales en función del número de capas atómicas y los 
-parámetros de cálculo. Con los bloques superficiales se armará por apilamiento 
-los modelos de interfaz. Utilizando los resultados de los cálculos de energía 
-en función de la separación interfacial para las distintas configuraciones 
-\cite{Jiangetal} 
-se decidirá la interfaz más adherida.
-
-\section{Técnicas experimentales o de cálculo que se usarán}
-
-Los cálculos serán hechos dentro del marco de la DFT \cite{KohnSham65,
-HohenbergKohn64} usando el método 
-Projector Augmented Wave\cite{Bloch1994,Kresse1999}
-implementado en el código Vienna Ab-initio 
-Simulation Package\cite{Hafner2007,Hafner2008}
-en la Aproximación del Gradiente Generalizado según la 
-arametrización PBE \cite{PBE}. 
-
-Se utilizarán herramientas programadas en bash y/o python para procesamiento de 
-texto plano y análisis de resultados. Se utilizarán herramientas de conexión 
-remota nativas de unix / linux para acceso a las facilidades de cálculo.
-
 \section{Cronograma estimado de cada una de las actividades}
+ 
+Las actividades se desarrollarán a lo largo de 6 meses, y se 
+incluye un mínimo de 1 mes para escritura y defensa del Trabajo Final de Ingeniería.
 
- (deben totalizar 13 
-meses incluido un mínimo de 3 meses para escritura y defensa) 
-
-\vspace{1cm}
-{
+\begin{table}[H]\footnotesize
+  \center
   \rowcolors{4}{gray!20!white}{white!20!gray}
   \renewcommand{\arraystretch}{2}
   
-\begin{table}[h!]\footnotesize
-  \begin{tabular}{ | p{3cm} | *{13}{m{0.5cm}} | } %c{2cm}|c{2cm}|c{2cm}|c{2cm}|c{2cm}| }
+  \begin{tabular}{ | p{3cm} | *{6}{m{0.5cm}} | } %c{2cm}|c{2cm}|c{2cm}|c{2cm}|c{2cm}| }
   \hline
-    \multicolumn{1}{|c|}{Actividad  } & \multicolumn{13}{c|}{ Mes } \\ [0.5em]
-   \cline{2-14}
-&1&2&3&4&5&6&7&8&9&10&11&12&13\\
+    \multicolumn{1}{|c|}{Actividad  } & \multicolumn{6}{c|}{ Mes } \\ [0.5em]
+   \cline{2-7}
+&1&2&3&4&5&6\\
 \hline
 
 \hline
-   Revisión bibliográfica & \xmark & \xmark &&&&& \xmark & \xmark & \xmark && \xmark &&\\
-   Entrenamiento en el código de cálculo& \xmark & \xmark & \xmark &&&&&&&&&&\\
-   Cálculo de los bloques relajados de metal y óxido por separado&&& \xmark & \xmark & \xmark &&&&&&&&\\
-   Cálculo de la energía de la interfaz metal/óxido en función de la separación&&&&& \xmark & \xmark & \xmark & \xmark & \xmark & \xmark &&&\\
-   Análisis de resultados y escritura de la Tesis&&&& \xmark & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark & \xmark \\
+   Revisión bibliográfica & \xmark & \xmark & \xmark & \xmark & \xmark &\xmark \\
+   Entrenamiento en el código de cálculo& \xmark & \xmark & \xmark &&&\\
+   Cálculo del ZrO2 en volumen &\xmark & \xmark & \xmark &&&\\
+   Cálculos de superficie& &&&\xmark & \xmark & \xmark\\
+   Análisis y comunicación de resultados && \xmark & \xmark & \xmark & \xmark & \xmark \\
 %% \end{tabularx}
   \hline
 \end{tabular}
 \end{table}
-}
 
 \section{ Materiales e Infraestructura con que se cuenta }
 
@@ -216,26 +218,26 @@ Hafner2008} , y con
 cálculo de alto rendimiento utilizados en exclusividad por el grupo. Además, se 
 cuenta con acceso a las facilidades de cálculo de altas prestaciones de la CNEA, 
 que actualmente cuenta con el cluster ISAAC 750 procesadores y el nuevo cluster 
-Neurus de 1040 procesadores.
+Neurus de infraestructura dinámica.
 
 \section{Experiencia previa del grupo de trabajo en el tema propuesto Aplicaciones 
 de DFT}
 
 En la actualidad la División de Aleaciones Especiales trabaja en el marco de un 
-PICT 2015 y un Proyecto UNSAM 2017-2019. Estos proyectos implican por un lado 
+PICT 2018. El mismo implica por un lado
 estudios teóricos de los sistemas Zr metálico y de los defectos puntuales de la 
-ZrO2 y la interacción entre ambos sistemas, pero por otro lado se realizan 
+ZrO\textsubscript{2} y la interacción entre ambos sistemas, pero por otro lado se realizan 
 estudios experimentales para el diseño de nuevas aleaciones de Zr para uso en 
 reactores nucleares de potencia de cuarta generación. 
 Por otro lado, los directores poseen amplia experiencia en el estudio de 
-sistemas interfaciales mediante métodos computacionales. En sus tesis de 
-doctorado se llevaron a cabo estudios de adhesión, defectos puntuales y 
-difusión que dieron también lugar a publicaciones en revistas internacionales. 
+sistemas interfaciales mediante métodos computacionales. Sus trabajos 
+se llevaron a cabo estudios de adhesión, defectos puntuales y 
+difusión que dieron también lugar a publicaciones en revistas internacionales,
+tesis de doctorado y trabajos finales de Ingeniería \cite{Cotes2019}. 
 
 \subsection{ Tesis desarrolladas en el grupo en temas de cálculos DFT}
 
 \begin{enumerate}
-
 
 \item Tesis de Doctorado en Ciencia y Tecnología, Mención Materiales, 
 Instituto Sabato, UNSAM: “Modelo atomístico/continuo aplicado a la fractura de 
@@ -243,7 +245,7 @@ la capa de óxido en tuberías de reactores nucleares de potencia”. Mariano Fo
 , 2017.
 
 \item Tesis de Doctorado UBA, área Ciencias Físicas: “Defectos 
-constitucionales y energía de migración de aluminio en UAl4”. Laura Kniznik, 
+  constitucionales y energía de migración de aluminio en UAl\textsubscript{4}”. Laura Kniznik, 
 2016. 
 
 \end{enumerate}
@@ -350,7 +352,6 @@ Materials 478 (2016) 74-82.
 
 \begin{enumerate} 
 
-
 \item  Mención especial a Mariano Forti en el CONCURSO ESTÍMULO A JÓVENES 
 INVESTIGADORES EN CIENCIA Y TECNOLOGÍA DE MATERIALES. Trabajo premiado: Forti 
 M., Balbuena P. y Alonso P., ESTUDIOS AB-INITIO SOBRE CARBURACIÓN EN ALEACIONES 
@@ -376,25 +377,31 @@ Misiones, Argentina.
 
 \begin{itemize}
 
-\item Los temas a desarrollar en esta Tesis de Maestría son parte de un proyecto
-    presentado para su financiación
-por ANPCyT en el concurso PICT2018 bajo el título ``Simulación y ensayo de una
-aleación propuesta para reactores nucleares de alto
-Quemado''.
+\item Los temas a desarrollar en este trabajo son parte de un proyecto
+PICT-2018-01671 ``Simulación y ensayo de una aleación propuesta para reactores nucleares de alto quemado''.
 
 \end{itemize}
 
 
 
-\bibliography{Bibliography}
-\bibliographystyle{ieeetr}
+\printbibliography
 
 \vspace{2cm}
 \begin{table}[h!]
   \begin{tabular*}{\textwidth}{ *{3}{>\centering p{0.3\textwidth} } }
     &\\
     \hline
-    Mariano Forti & Pablo Gargano & Rubén Gonzales\\
+%    \begin{tikzpicture}[overlay, baseline]
+%      \node at (1,0.4) {
+%      \includegraphics[width=0.3\textwidth]
+%      {/home/mariano/Documents/Documentaciones/FirmasMariano.png}
+%    };
+%      \node at (6,1) {
+%      \includegraphics[width=0.3\textwidth]
+%      {../Firmas/FirmaKniznik.pdf}
+%    };
+%    \end{tikzpicture}
+    Mariano Forti & Pablo Gargano \\
   \end{tabular*}
 \end{table}
 
