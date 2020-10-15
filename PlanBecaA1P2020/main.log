@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/TeX Live for SUSE Linux) (preloaded format=pdflatex 2020.2.8)  15 OCT 2020 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/TeX Live for SUSE Linux) (preloaded format=pdflatex 2020.2.8)  15 OCT 2020 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -680,9 +680,10 @@ Underfull \hbox (badness 4132) in paragraph at lines 103--103
 \OT1/cmr/m/n/8 tal/^^Soxi-do en fun-ci^^Son
  []
 
-[2] [3] [4] (./main.bbl [5]))
+[2] [3] [4] (./05-Objetivos-PlanEstrategico.tex [5] [6]) (./main.bbl [7]))
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
- [6]
+
+[8]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
  (./main.aux
 LaTeX Info: Redefining \. on input line 23.
@@ -691,17 +692,17 @@ LaTeX Info: Redefining \% on input line 23.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 01A4BB0BB3137A06A7D8C93B5005ED6A;720.
+(rerunfilecheck)             Checksum: 641D3869059EB7AE33FB0AEB693DE80C;2419.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
  ) 
 Here is how much of TeX's memory you used:
- 7271 strings out of 494035
- 100288 string characters out of 6158522
- 216531 words of memory out of 5000000
- 10553 multiletter control sequences out of 15000+600000
+ 7321 strings out of 494035
+ 101144 string characters out of 6158522
+ 216556 words of memory out of 5000000
+ 10580 multiletter control sequences out of 15000+600000
  8317 words of font info for 29 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
- 41i,12n,35p,217b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,35p,246b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/public
 /amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmmi7.
@@ -710,10 +711,10 @@ f/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf/fonts/type1/public/
 amsfonts/cm/cmr8.pfb></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmss8.pfb
 ></usr/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/f
 onts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (6 pages, 135627 bytes).
+Output written on main.pdf (8 pages, 145157 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
- 51 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 257 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
